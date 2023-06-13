@@ -1,0 +1,84 @@
+.button1 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.plane {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
+
+.bus {
+  position: fixed;
+  top: 5px;
+  right: 70px;
+}
+
+.train {
+  position: fixed;
+  top: 5px;
+  right: 135px;
+}
+
+.seoul {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.208)), url(images/b-seoul.jpg);
+  background-size:cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.responsive-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.info {
+    font-family: 'Gugi', cursive;
+}
+
+.info2 {
+  font-family: 'Diphylleia', serif;
+}
+
+.AboutMe {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.208)), url(images/flight.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    text-align:right; color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#post-form {
+    margin-bottom: 20px;
+    display: none;
+  }
+
+  #post-form.show {
+    display: block;
+  }
+
+  #post-form input[type="text"], #post-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  #posts {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .post {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .post img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seoul, 서울</title>
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel = "stylesheet" href = "style.css">
+  <style>
+  </style>
+  </head>
+  <body>
+    <header id = "top">
+    </header>
+
+    <!-- 섹션 코드 시작 -->
+    <section class ="container py-5">
+        <div class="pb-2 mb-4 border-2 border-bottom border-primary text-center">
+            <h3 class = "display-4 fw-bold mt-0" id = "intro">
+                <a href = "index.html" class = "link-dark">
+                Seoul</a></h3>
+            <ul class="nav justify-content-evenly text-primary">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#restaurant">Restaurant</a>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#festival">Event/Festival</a>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#attraction">Tourist Attraction</a>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#accommodation">Accommodation</a>
+              </ul>
+          </div>
+    </section>
+
+    <!-- 캐러셀 -->
+    <section class ="container py-5">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <a href="https://www.lwt.co.kr/ko/main/main.do">
+          <img src="images/b-seoul.jpg" class="d-block w-100" alt="롯데월드타워">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>롯데월드타워</h5>
+            <p>Lotte World Tower</p>
+          </div>
+        </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="http://www.royalpalace.go.kr/">
+          <img src="images/gyeo.avif" class="d-block w-100" alt="경복궁">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>경복궁</h5>
+            <p>Gyeongbokgung Palace</p>
+          </div>
+        </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="https://www.seoultower.co.kr/">
+          <img src="images/namsan.jpg" class="d-block w-100" alt="N서울타워">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>N서울타워</h5>
+            <p>N Seoul Tower</p>
+          </div>
+        </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="https://hangang.seoul.go.kr/www/contents/663.do?mid=463">
+          <img src="images/banpo.png" class="d-block w-100" alt="반포한강공원">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>반포한강공원</h5>
+            <p>Banpo Han River Park</p>
+          </div>
+        </a>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <pre>
+
+
+  </pre>
+
+  <!-- 서울 맛집 -->
+    <div class = "container overflow-hidden" id = "restaurant">
+      <div class = "text-center text-black py-5">
+          <h2 class = "info fw-bold mb-3">서울 맛집</h2>
+          <p class = "info">Famous restaurants in Seoul</p>
+      </div>
+      <div class = "row pb-5 g-4">
+          <div class = "col-sm-6 col-lg-3">
+            <a href = "https://map.naver.com/v5/search/%EC%86%94%EC%86%A5?c=15,0,0,0,dh">
+              <img src = "images/solsot.jpg" alt = "솔솥" class = "img-fluid img-thumbnail"></a>
+          </div>
+          <div class = "col-sm-6 col-lg-3 text-left">
+            <br>
+            <h5 class = "info2">&lt;솔솥&gt;</h5>
+            <p class = "info2">연남, 청담, 강남, 대학로 등 다양한 지점을 보유한 솔솥. 건강한 한식 솥밥이 생각날 땐 솔솥!</p>
+          </div>
+
+          <div class = "col-sm-6 col-lg-3">
+            <a href = "https://www.hanilkwan.co.kr/">
+              <img src = "images/hanil.jpg" alt = "한일관" class = "img-fluid img-thumbnail"></a>
+          </div>
+          <div class = "col-sm-6 col-lg-3 text-left">
+            <br>
+            <h5 class = "info2">&lt;한일관&gt;</h5>
+            <p class = "info2">궁중음식 느낌대로 놋쇠 그릇에 육수와 함께 육즙을 그대로 느낄 수 있는 등심불고기를 맛보고 싶다면 한일관으로!</p>
+          </div>
+      </div>
+
+        <div class = "row pb-5 g-4">
+          <div class = "col-sm-6 col-lg-3 text-right">
+          <br>
+          <br>
+            <h5 class = "info2">&lt;사리원&gt;</h5>
+              <p class = "info2">전통을 담아내는 사리원에서 맛있는 추억도 함께 담아가기를.</p>
+        </div>
+
+        <div class = "col-sm-6 col-lg-3">
+          <a href = "http://www.sariwonkorea.com/">
+            <img src = "images/sariwon.jpg" alt = "사리원" class = "img-fluid img-thumbnail"></a>
+        </div>
+        
+        <div class = "col-sm-6 col-lg-3 text-right">
+          <br>
+          <h5 class = "info2">&lt;금돼지식당&gt;</h5>
+          <p class = "info2">흔한 돼지고기지만, 한 번 맛보면 절대 잊을 수 없는 맛!미쉐린 가이드에도 선정된 금돼지식당!</p>
+        </div>
+
+        <div class = "col-sm-6 col-lg-3">
+          <a href = "https://blog.naver.com/goldpig1982">
+            <img src = "images/pig.jpeg" alt = "금돼지식당" class = "img-fluid img-thumbnail"></a>
+        </div>
+
+    </div>
+  </div>
+
+  <pre>
+    
+  </pre>
+
+  <!-- 행사/축제 -->
+  <div class = "container overflow-hidden" id = "festival">
+    <div class = "text-center text-black py-5">
+        <h2 class = "info fw-bold mb-3">행사/축제</h2>
+        <p class = "info">Local events/festivals</p>
+    </div>
+
+    <div class="card-group text-center info2">
+      <div class="card">
+        <a href = "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=2987531">
+        <img src="images/you.jpeg" class="card-img-top" alt="유채꽃축제"></a>
+        <div class="card-body">
+          <h5 class="card-title">한강서래섬 유채꽃 축제</h5>
+          <p class="card-text">2023 한강 서래섬 유채꽃 축제가 5월 12일부터 21일까지 10일 동안 반포한강공원 서래섬에서 개최된다. ‘유채찬란’ 포토존은 기간 중 상시 운영되며, 5월 13일부터 14일까지 2일간 특별 공연 및 체험 프로그램이 진행될 예정이다.</p>
+        </div>
+      </div>
+      <div class="card">
+        <a href = "https://hangangmoonlightmarket.org/">
+        <img src="images/market.jpeg" class="card-img-top" alt="한강달빛야시장"></a>
+        <div class="card-body">
+          <h5 class="card-title">한강달빛야시장</h5>
+          <p class="card-text">한강달빛야시장은 국내 최고의 푸드트럭들이 선보이는 먹거리, 수준 높은 수공예품, 다양한 공연까지 다양한 즐거움이 있는 서울형 야시장이다.</p>
+        </div>
+      </div>
+      <div class="card">
+        <a href = "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=531460">
+        <img src="images/light.jpeg" class="card-img-top" alt="연등회"></a>
+        <div class="card-body">
+          <h5 class="card-title">연등회</h5>
+          <p class="card-text">1200여 년 전, 신라시대에 시작되어 고려 연등회와 조선 관등놀이를 거쳐 오늘날까지 이어지고 있는 전통축제로 국가무형문화재이자 유네스코 인류무형문화유산이다.</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<pre>
+  
+
+
+</pre>
+
+<!-- 관광명소 -->
+  <div class = "container overflow-hidden" id = "attraction">
+    <div class = "text-center text-black py-5">
+        <h2 class = "info fw-bold mb-3">관광명소</h2>
+        <p class = "info">Tourist attractions</p>
+    </div>
+    <div class = "row pb-5 g-4">
+        <div class = "col-sm-6 col-lg-3">
+          <a href = "https://hangang.seoul.go.kr/www/contents/663.do?mid=463">
+            <img src = "images/banpo.jpeg" alt = "반포한강공원" class = "img-fluid img-thumbnail"></a>
+        </div>
+        <div class = "col-sm-6 col-lg-3 text-left">
+          <br>
+          <h5 class = "info2">&lt;반포한강공원&gt;</h5>
+          <p class = "info2">200여개의 조명으로 일곱빛깔 무지개처럼 아름다운 풍경을 연출하는 반포한강공원!</p>
+        </div>
+
+        <div class = "col-sm-6 col-lg-3">
+          <a href = "http://www.royalpalace.go.kr/">
+            <img src = "images/gyeo.jpg" alt = "경복궁" class = "img-fluid img-thumbnail"></a>
+        </div>
+        <div class = "col-sm-6 col-lg-3 text-left">
+          <br>
+          <h5 class = "info2">&lt;경복궁&gt;</h5>
+          <p class = "info2">서울특별시 종로구 세종로에 있는 조선전기에 창건되어 정궁으로 이용된 궁궐. 정궁. 사적.</p>
+        </div>
+    </div>
+
+      <div class = "row pb-5 g-4">
+        <div class = "col-sm-6 col-lg-3 text-right">
+        <br>
+        <br>
+          <h5 class = "info2">&lt;북촌한옥마을&gt;</h5>
+            <p class = "info2">경복궁과 창덕궁, 금원(비원) 사이 북악산 기슭에 있는 한옥 보존지구로 청계천과 종로의 윗동네, 북촌.</p>
+      </div>
+
+      <div class = "col-sm-6 col-lg-3">
+        <a href = "https://hanok.seoul.go.kr/front/index.do">
+          <img src = "images/buk.png" alt = "북촌한옥마을" class = "img-fluid img-thumbnail"></a>
+      </div>
+      
+      <div class = "col-sm-6 col-lg-3 text-right">
+        <br>
+        <h5 class = "info2">&lt;더현대서울&gt;</h5>
+        <p class = "info2">볼거리, 먹을거리 가득한 서울 내 단일건물로 가장 규모가 큰 백화점</p>
+      </div>
+
+      <div class = "col-sm-6 col-lg-3">
+        <a href = "https://www.thehyundaiseoul.com">
+          <img src = "images/thehyundae.jpg" alt = "더현대서울" class = "img-fluid img-thumbnail"></a>
+      </div>
+
+  </div>
+</div>
+
+<pre>
+ 
+</pre>
+
+<div class = "text-center py-5 text-black" id = "accommodation">
+  <h2 class = "info fw-bold mb-3">숙소</h2>
+  <p class = "info text-black">Accommodation</p>
+</div>
+
+<div class="container overflow-hidden text-center">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href = "http://rkj.co.kr/" style="color: black;">
+        <img src="images/acc1.jpg" class="card-img-top" alt="락고재">
+        <div class="card-body">
+          <p class="card-text">락고재</p>
+          <p class="card-text">옛것을 누리는 맑고 편안한 마음이 절로 드는 곳</p>
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href = "https://www.paraspara.co.kr/" style="color: black;">
+        <img src="images/acc2.jpg" class="card-img-top" alt="파라스파라">
+        <div class="card-body">
+          <p class="card-text">파라스파라</p>
+          <p class="card-text">북한산 국립공원 자락 2만 3천 평 대자연의 품속에 자리한 파라스파라 서울</p>
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href = "https://blog.naver.com/phjks3210" style="color: black;">
+        <img src="images/acc3.jpg" class="card-img-top" alt="종로한옥궁게스트하우스">
+        <div class="card-body">
+          <p class="card-text">종로한옥궁게스트하우스</p>
+          <p class="card-text">100년 전동을 이어오는 도심 속 조용하고, 쉼을 제공하는 한옥스테이</p>
+        </div>
+      </a>
+      </div>
+    </div>
+    
+    </div>
+    </div>
+
+<pre>
+
+
+
+
+</pre>
+
+
+    <!-- 교통정보 아이콘 -->
+      <a href = "https://map.naver.com/v5/search/%EC%9D%B8%EC%B2%9C%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD%201%ED%84%B0%EB%AF%B8%EB%84%90/place/11577227?placePath=%3Fentry=pll%26from=nx%26fromNxList=true"><img src="images/plane.png" class = "plane"></a>
+      <a href = "https://map.naver.com/v5/search/%EA%B3%A0%EC%86%8D%EB%B2%84%EC%8A%A4%ED%84%B0%EB%AF%B8%EB%84%90/place/11567199?placePath=%3Fentry=pll%26from=nx%26fromNxList=true"><img src="images/bus.png" class = "bus"></a>
+      <a href = "https://map.naver.com/v5/entry/place/11630456?c=15,0,0,0,dh"><img src="images/train.png" class = "train"></a>
+
+    <!-- 나의 정보 섹션 시작 -->
+    <section class ="py-5 AboutMe">
+        <div class="container border-2 border-top border-white text-white">
+            <pre class = "AboutMe">
+
+
+                서울여자대학교 Seoul Women's University
+                디지털미디어학과 배준희 Digital Media Bae Jun Hee
+                서울특별시 노원구 화랑로 621
+                e-mail: baejunehee@naver.com
+                Tel: 010-5424-6050
+            </pre>
+
+            <div class = "d-flex mt-1">
+                <a href = "https://www.youtube.com/" class = "btn btn-danger rounded-circle btn-lg px-3"><i class="bi bi-youtube"></i></a>
+                <a href = "https://ko-kr.facebook.com/" class = "btn btn-primary rounded-circle btn-lg px-3"><i class="bi bi-facebook"></i></a>
+                <a href = "https://www.instagram.com/" class = "btn btn-light rounded-circle btn-lg px-3"><i class="bi bi-instagram"></i></a>
+                <a href = "https://twitter.com/?lang=ko" class = "btn btn-info rounded-circle btn-lg px-3"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- top 버튼 -->
+    <a href = "#top"><button type="button" class="btn btn-outline-primary button1 rounded-circle"><i class="bi bi-arrow-up"></i></button></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

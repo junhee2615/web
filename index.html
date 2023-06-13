@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Korea Travel Guide</title>
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <header id = "top">
+    </header>
+    <!-- 섹션 코드 시작 -->
+    <section class ="container py-5">
+        <div class="pb-2 mb-4 border-2 border-bottom border-primary text-center">
+            <h1 class = "display-4 fw-bold mt-0" id = "intro">
+                <a href = "index.html" class = "link-dark">
+                Korea Travel Guide</a></h1>
+            <ul class="nav justify-content-evenly text-primary">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#info">About us</a>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#region">Region</a>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                
+              </ul>
+          </div>
+
+          <!-- 캐러셀 -->
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <a href="seoul.html">
+                <img src="images/b-seoul.jpg" class="d-block w-100" alt="서울">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>서울 Seoul</h5>
+                  <p>동행, 매력 특별시 서울</p>
+                </div>
+              </a>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="gyeongju.html">
+                <img src="images/b-gyeongju.jpg" class="d-block w-100" alt="경주">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>경주 Gyeongju</h5>
+                  <p>유네스코 세계문화유산 최다 보유</p>
+                </div>
+              </a>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="jeju.html">
+                <img src="images/b-jeju.jpg" class="d-block w-100" alt="제주">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>제주도 Jeju-Island</h5>
+                  <p>다함께 미래로 빛나는 제주</p>
+                </div>
+              </a>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="yeosu.html">
+                <img src="images/b-yeosu.jpg" class="d-block w-100" alt="여수">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>여수 Yeosu</h5>
+                  <p>남해안 거점도시 미항 여수</p>
+                </div>
+              </a>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="jeonju.html">
+                <img src="images/b-jeonju.jpg" class="d-block w-100" alt="전주">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>전주 Jeonju</h5>
+                  <p>한바탕 전주 세계를 비빈다</p>
+                </div>
+              </a>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="busan.html">
+                <img src="images/b-busan.jpg" class="d-block w-100" alt="부산">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>부산 Busan</h5>
+                  <p>제 2의 도시, 제 1의 무역항</p>
+                </div>
+              </a>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="gangneung.html">
+                <img src="images/b-gangneung.jpg" class="d-block w-100" alt="강릉">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>강릉 Gangnenug</h5>
+                  <p class>은은한 커피향이 남다른 강릉</p>
+                </div>
+              </a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <!-- 섹션 코드 끝 -->
+
+    <!-- 웹사이트 정보 섹션 시작 -->
+    <section class = "bg-dark py-5" id = "info">
+        <div class = "container overflow-hidden">
+            <div class = "text-center text-white py-5">
+                <h2 class = "info fw-bold mb-3">지역 행사/축제 정보</h2>
+                <p class = "info">About local events/festivals</p>
+                <br>
+                <h5 class = "info">Korea Travel Guide는 각종 지역행사/축제에 대한 정보를 제공합니다.</h5>
+            </div>
+            <div class = "row pb-5 g-4">
+                <div class = "col-sm-6 col-lg-3">
+                    <img src = "images/fest1.jpg" alt = "축제 사진1" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-3">
+                    <img src = "images/fest2.jpg" alt = "축제 사진2" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-3">
+                    <img src = "images/fest3.jpg" alt = "축제 사진3" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-3">
+                    <img src = "images/fest5.jpg" alt = "축제 사진4" class = "img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+
+        <pre>
+
+
+        </pre>
+
+        <div class = "container overflow-hidden">
+            <div class = "text-center text-white py-5">
+                <h2 class = "info fw-bold mb-3">공항/버스터미널/기차역 정보</h2>
+                <p class = "info">Airport/Bus Terminal/Trains Station Information</p>
+                <br>
+                <h5 class = "info">Korea Travel Guide는 관광지 근처 공항/버스터미널/기차역에 대한 정보를 제공합니다.</h5>
+            </div>
+            <div class = "row pb-5 g-4">
+                <div class = "col-sm-6 col-lg-4">
+                    <img src = "images/train.jpg" alt = "기차역" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-4">
+                    <img src = "images/airport.jpg" alt = "공항" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-4">
+                    <img src = "images/terminal.jpg" alt = "버스 터미널" class = "img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+
+        <pre>
+
+
+        </pre>
+
+        <div class = "container overflow-hidden">
+            <div class = "text-center text-white py-5">
+                <h2 class = "info fw-bold mb-3">맛집/관광명소 정보</h2>
+                <p class = "info">restaurants/tourist attractions</p>
+                <br>
+                <h5 class = "info">Korea Travel Guide는 관광지 근처 맛집/관광명소에 대한 정보를 제공합니다.</h5>
+            </div>
+            <div class = "row pb-5 g-4">
+                <div class = "col-sm-6 col-lg-3">
+                    <img src = "images/solsot.jpg" alt = "솔솥" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-3">
+                    <img src = "images/hanil.jpg" alt = "한일관" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-3">
+                    <img src = "images/gyeongbok.jpg" alt = "경복궁" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-3">
+                    <img src = "images/thehyundae.jpg" alt = "더현대서울" class = "img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+
+        <pre>
+
+
+        </pre>
+
+        <div class = "container overflow-hidden">
+            <div class = "text-center text-white py-5">
+                <h2 class = "info fw-bold mb-3">여행 후기/숙소 정보</h2>
+                <p class = "info">travel review/accommodation information</p>
+                <br>
+                <h5 class = "info">Korea Travel Guide는 여행 후기/숙소에 대한 정보를 제공합니다.</h5>
+            </div>
+            <div class = "row pb-5 g-4">
+                <div class = "col-sm-6 col-lg-4">
+                    <img src = "images/acc1.jpg" alt = "락고재" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-4">
+                    <img src = "images/acc2.jpg" alt = "파라스파라" class = "img-fluid img-thumbnail">
+                </div>
+                <div class = "col-sm-6 col-lg-4">
+                    <img src = "images/acc3.jpg" alt = "종로한옥궁게스트하우스" class = "img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+   
+    </section>
+    <!-- 웹사이트 정보 섹션 끝 -->
+
+    <!-- 지역 선택 섹션 시작 -->
+    <section class = "bg-dark py-5" id = "region">
+      <div class = "text-center py-5 text-white">
+        <h2 class = "info fw-bold mb-3">여행하고 싶은 지역을 선택하세요!</h2>
+        <p class = "info lead text-white">Choose the region you want to travel to!</p>
+      </div>
+
+      <div class="container overflow-hidden text-center">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <a href = "seoul.html" style="color: black;">
+              <img src="images/b-seoul.jpg" class="card-img-top" alt="서울">
+              <div class="card-body">
+                <p class="card-text">동행, 매력특별시 서울</p>
+                <p class="card-text">Companion, Charm Special City, Seoul</p>
+              </div>
+            </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <a href="jeonju.html"  style="color: black;">
+              <img src="images/b-jeonju.jpg" class="card-img-top" alt="전주">
+              <div class="card-body">
+                <p class="card-text">한바탕 전주, 세계를 비빈다</p>
+                <p class="card-text">Jeonju, rubs the world</p>
+              </div>
+            </a>
+            </div>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <a href = "jeju.html" style="color: black;">
+              <img src="images/b-jeju.jpg" class="card-img-top" alt="제주">
+              <div class="card-body">
+                <p class="card-text">다함께 미래로 빛나는 제주</p>
+                <p class="card-text">Jeju shines on the future together</p>
+              </div>
+            </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <a href = "yeosu.html" style="color: black;">
+              <img src="images/b-yeosu.jpg" class="card-img-top" alt="여수">
+              <div class="card-body">
+                <p class="card-text">남해안 거점 도시 미항 여수</p>
+                <p class="card-text">Yeosu, a beautiful port on the southern coast</p>
+              </div>
+            </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <a href="busan.html" style="color: black;">
+              <img src="images/b-busan.jpg" class="card-img-top" alt="부산">
+              <div class="card-body">
+                <p class="card-text">제 2의 도시 부산</p>
+                <p class="card-text">the second city, the first port of trade</p>
+              </div>
+            </a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <a href = "gyeongju.html" style="color: black;">
+              <img src="images/b-gyeongju.jpg" class="card-img-top" alt="경주">
+              <div class="card-body">
+                <p class="card-text">세계 문화유산 최대 보유 경주</p>
+                <p class="card-text">the largest number of World Heritage</p>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <a href="gangneung.html" style="color: black;">
+              <img src="images/b-gangneung.jpg" class="card-img-top" alt="강릉">
+              <div class="card-body">
+                <p class="card-text">은은한 커피향이 남다른 강릉</p>
+                <p class="card-text">Gangneung with a subtle coffee scent</p>
+              </div>
+            </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+        
+      </div>
+      </section>
+      <!-- 지역 선택 섹션 시작 -->
+      
+
+    <!-- 나의 정보 섹션 시작 -->
+    <section class ="py-5 AboutMe" id = "contact">
+        <div class="container border-2 border-top border-white text-white">
+            <pre class = "AboutMe">
+
+
+                서울여자대학교 Seoul Women's University
+                디지털미디어학과 배준희 Digital Media Bae Jun Hee
+                서울특별시 노원구 화랑로 621
+                e-mail: baejunehee@naver.com
+                Tel: 010-5424-6050
+            </pre>
+
+            <div class = "d-flex mt-1">
+                <a href = "https://www.youtube.com/" class = "btn btn-danger rounded-circle btn-lg px-3"><i class="bi bi-youtube"></i></a>
+                <a href = "https://ko-kr.facebook.com/" class = "btn btn-primary rounded-circle btn-lg px-3"><i class="bi bi-facebook"></i></a>
+                <a href = "https://www.instagram.com/" class = "btn btn-light rounded-circle btn-lg px-3"><i class="bi bi-instagram"></i></a>
+                <a href = "https://twitter.com/?lang=ko" class = "btn btn-info rounded-circle btn-lg px-3"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- top 버튼 -->
+    <a href = "#top"><button type="button" class="btn btn-outline-primary button1 rounded-circle"><i class="bi bi-arrow-up"></i></button></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

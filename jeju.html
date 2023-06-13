@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jeju, 제주</title>
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel = "stylesheet" href = "style.css">
+  <style>
+  </style>
+  </head>
+  <body>
+    <header id = "top">
+    </header>
+
+    <!-- 섹션 코드 시작 -->
+    <section class ="container py-5">
+        <div class="pb-2 mb-4 border-2 border-bottom border-primary text-center">
+            <h1 class = "display-4 fw-bold mt-0" id = "intro">
+                <a href = "index.html" class = "link-dark">
+                Jeju</a></h1>
+            <ul class="nav justify-content-evenly text-primary">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#restaurant">Restaurant</a>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#festival">Event/Festival</a>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#attraction">Tourist Attraction</a>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#accommodation">Accommodation</a>
+              </ul>
+          </div>
+    </section>
+
+    <!-- 캐러셀 -->
+    <section class ="container py-5">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <a href="https://map.naver.com/v5/search/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%EA%B4%80%EA%B4%91%EB%AA%85%EC%86%8C/place/11707633?placePath=%3Ffrom=nx%26fromNxList=true&c=15,0,0,0,dh">
+          <img src="images/ecoland.jpg" class="d-block w-100" alt="에코랜드 테마파크">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>에코랜드 테마파크</h5>
+            <p>Ecoland Themepark</p>
+          </div>
+        </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030053">
+          <img src="images/forest.jpg" class="d-block w-100" alt="절물자연휴양림">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>절물자연휴양림</h5>
+            <p>A natural recreational forest</p>
+          </div>
+        </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="http://www.visitjeju.net/ko/tourView.jto?menuCd=DOM_000001717010000000&areaId=CNTS_000000000020476">
+          <img src="images/ju.jpg" class="d-block w-100" alt="대포주상절리">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>대포주상절리</h5>
+            <p>Daepo columnar joint</p>
+          </div>
+        </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="https://www.deslumieres.co.kr/bunker">
+          <img src="images/bunker.jpg" class="d-block w-100" alt="빛의 벙커">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>빛의 벙커</h5>
+            <p>a bunker of light</p>
+          </div>
+        </a>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <pre>
+
+
+  </pre>
+
+  <!-- 제주 맛집 -->
+    <div class = "container overflow-hidden" id = "restaurant">
+      <div class = "text-center text-black py-5">
+          <h2 class = "info fw-bold mb-3">제주 맛집</h2>
+          <p class = "info">Famous restaurants in Jeju</p>
+      </div>
+      <div class = "row pb-5 g-4">
+          <div class = "col-sm-6 col-lg-3">
+            <a href = "https://map.naver.com/v5/entry/place/1876373893?lng=126.6695095&lat=33.5424872&placePath=%2Fhome&c=15,0,0,0,dh">
+              <img src = "images/galchi.png" alt = "갈치옥 함덕" class = "img-fluid img-thumbnail"></a>
+          </div>
+          <div class = "col-sm-6 col-lg-3 text-left">
+            <br>
+            <h5 class = "info2">&lt;갈치옥 함덕&gt;</h5>
+            <p class = "info2">매장 바로 앞에 고운 백사장과 얕은 수심으로 인기 관광지인 함덕해수욕장이 있으며 델문도 카페가 보이는 오션뷰 테라스가있는 오션뷰 갈치옥</p>
+          </div>
+
+          <div class = "col-sm-6 col-lg-3">
+            <a href = "https://map.naver.com/v5/search/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%EB%A7%9B%EC%A7%91/place/35848888?placePath=%3Fentry=pll%26from=nx%26fromNxList=true%26n_ad_group_type=10%26n_query=%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%A7%9B%EC%A7%91&n_ad_group_type=10&n_query=%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%A7%9B%EC%A7%91&c=9,0,0,0,dh">
+              <img src = "images/bpig.jpg" alt = "제주곰집" class = "img-fluid img-thumbnail"></a>
+          </div>
+          <div class = "col-sm-6 col-lg-3 text-left">
+            <br>
+            <h5 class = "info2">&lt;제주곰집&gt;</h5>
+            <p class = "info2">30년 요리경력의 정셰프가 운영하는 제주곰집.고기의 육질과 해산물의 신선함이 최고인 서귀포 흑돼지 맛집</p>
+          </div>
+      </div>
+
+        <div class = "row pb-5 g-4">
+          <div class = "col-sm-6 col-lg-3 text-right">
+          <br>
+            <h5 class = "info2">&lt;삼무국수 서귀포점&gt;</h5>
+              <p class = "info2">100% 제주산 돼지고기,뼈,사골에 차별화된 제주 전통 비법을 가미하여 제주의 옛맛을 정성들여 대접하는 삼무국수.</p>
+        </div>
+
+        <div class = "col-sm-6 col-lg-3">
+          <a href = "https://www.instagram.com/seogwipo_sammoo/">
+            <img src = "images/noodle.png" alt = "삼무국수 서귀포점" class = "img-fluid img-thumbnail"></a>
+        </div>
+        
+        <div class = "col-sm-6 col-lg-3 text-right">
+          <br>
+          <h5 class = "info2">&lt;제주광해 애월&gt;</h5>
+          <p class = "info2">항상 신선한 재료와 정성을 다하는 제주도 갈치조림 맛집 제주광해애월</p>
+            </p>
+        </div>
+
+        <div class = "col-sm-6 col-lg-3">
+          <a href = "http://7134789.modoo.at/">
+            <img src = "images/fish.png" alt = "제주광해 애월" class = "img-fluid img-thumbnail"></a>
+        </div>
+
+    </div>
+  </div>
+
+  <pre>
+    
+  </pre>
+
+  <!-- 행사/축제 -->
+  <div class = "container overflow-hidden" id = "festival">
+    <div class = "text-center text-black py-5">
+        <h2 class = "info fw-bold mb-3">행사/축제</h2>
+        <p class = "info">Local events/festivals</p>
+    </div>
+
+    <div class="card-group text-center info2">
+      <div class="card">
+        <a href = "http://theveniceland.com/m/index.php">
+        <img src="images/common.png" class="card-img-top" alt="베니스랜드 유럽수국축제"></a>
+        <div class="card-body">
+          <h5 class="card-title">베니스랜드 유럽수국축제</h5>
+          <p class="card-text">공원 전체에 어우러진 꽃 봉우리가 그 어디에도 찾아볼 수 없을 만큼 아름다워 신비함마저 드는 곳이다.</p>
+        </div>
+      </div>
+      <div class="card">
+        <a href = "http://www.tamnafestival.kr/">
+        <img src="images/common2.png" class="card-img-top" alt="탐라문화제"></a>
+        <div class="card-body">
+          <h5 class="card-title">탐라문화제</h5>
+          <p class="card-text">제주탐라문화제는 62회째로 탐라문화원형(민속, 신화, 역사, 생활사 등)을 기반으로 제주고유 콘텐츠를 브랜드화 해나가는 축제이다.</p>
+        </div>
+      </div>
+      <div class="card">
+        <a href = "http://www.jhaf.or.kr/">
+        <img src="images/common3.png" class="card-img-top" alt="제주해비치아트페스티벌"></a>
+        <div class="card-body">
+          <h5 class="card-title">제주해비치아트페스티벌</h5>
+          <p class="card-text">다양한 형태의 공연예술프로그램 실연을 통해 문화 향유 기회를 제공하는 대한민국을 대표하는 아트마켓형 페스티벌이다.</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<pre>
+  
+
+
+</pre>
+
+<!-- 관광명소 -->
+  <div class = "container overflow-hidden" id = "attraction">
+    <div class = "text-center text-black py-5">
+        <h2 class = "info fw-bold mb-3">관광명소</h2>
+        <p class = "info">Tourist attractions</p>
+    </div>
+    <div class = "row pb-5 g-4">
+        <div class = "col-sm-6 col-lg-3">
+          <a href = "https://map.naver.com/v5/search/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%EA%B4%80%EA%B4%91%EB%AA%85%EC%86%8C/place/11707633?placePath=%3Ffrom=nx%26fromNxList=true&c=15,0,0,0,dh">
+            <img src = "images/ecoland.jpg" alt = "에코랜드 테마파크" class = "img-fluid img-thumbnail"></a>
+        </div>
+        <div class = "col-sm-6 col-lg-3 text-left">
+          <br>
+          <h5 class = "info2">&lt;에코랜드 테마파크&gt;</h5>
+          <p class = "info2">1800년대 증기기관차인 볼드윈 기종을 모델화하여 영국에서 수제품으로 제작된 링컨 기차로 30만평의 곶자왈 원시림을 기차로 체험하는 테마파크.</p>
+        </div>
+
+        <div class = "col-sm-6 col-lg-3">
+          <a href = "https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030053">
+            <img src = "images/forest.jpg" alt = "절물자연휴양림" class = "img-fluid img-thumbnail"></a>
+        </div>
+        <div class = "col-sm-6 col-lg-3 text-left">
+          <br>
+          <h5 class = "info2">&lt;절물자연휴양림&gt;</h5>
+          <p class = "info2">제주시가 지정한 제1호 약수터가 있는 삼나무 가득한 제주 절물자연휴양림</p>
+        </div>
+    </div>
+
+      <div class = "row pb-5 g-4">
+        <div class = "col-sm-6 col-lg-3 text-right">
+        <br>
+          <h5 class = "info2">&lt;대포주상절리&gt;</h5>
+            <p class = "info2">육각형의 돌기둥이 겹겹이 쌓여 성처럼 우뚝우뚝 솟아있는 돌기둥 사이로 파도가 부서지는 모습이 한 폭의 그림과도 같은 주상절리.</p>
+      </div>
+
+      <div class = "col-sm-6 col-lg-3">
+        <a href = "http://www.visitjeju.net/ko/tourView.jto?menuCd=DOM_000001717010000000&areaId=CNTS_000000000020476">
+          <img src = "images/ju.jpg" alt = "대포주상절리" class = "img-fluid img-thumbnail"></a>
+      </div>
+      
+      <div class = "col-sm-6 col-lg-3 text-right">
+        <br>
+        <h5 class = "info2">&lt;빛의 벙커&gt;</h5>
+        <p class = "info2">빛의 벙커는 옛 국가 기간 통신시설이었던
+            벙커를 국내 유일 몰입형 예술 전시관으로
+            재탄생 시킨 문화재생공간이다.</p>
+      </div>
+
+      <div class = "col-sm-6 col-lg-3">
+        <a href = "https://www.deslumieres.co.kr/bunker">
+          <img src = "images/bunker.jpg" alt = "빛의 벙커" class = "img-fluid img-thumbnail"></a>
+      </div>
+
+  </div>
+</div>
+
+<pre>
+ 
+</pre>
+
+<div class = "text-center py-5 text-black" id = "accommodation">
+  <h2 class = "info fw-bold mb-3">숙소</h2>
+  <p class = "info text-black">Accommodation</p>
+</div>
+
+<div class="container overflow-hidden text-center">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href = "https://hotels.naver.com/item?hotelFileName=hotel%3ALotte_Hotel_Jeju&adultCnt=2&includeTax=false&checkIn=2023-06-18&checkOut=2023-06-19" style="color: black;">
+        <img src="images/jacc.png" class="card-img-top" alt="롯데호텔제주">
+        <div class="card-body">
+          <p class="card-text">롯데호텔제주</p>
+          <p class="card-text">푸른 제주 바다와 하늘이 맞닿은 곳에 위치한 롯데호텔 제주는 천국 같은 휴식과 여행의 즐거움을 동시에 누릴 수 있는 대한민국 대표 호텔이다. </p>
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href = "https://www.shinhwaworld.com/" style="color: black;">
+        <img src="images/jacc2.jpeg" class="card-img-top" alt="제주신화월드">
+        <div class="card-body">
+          <p class="card-text">제주신화월드</p>
+          <p class="card-text">4개의 호텔&리조트, 레스토랑, 테마파크, 워터파크 그리고 프리미엄 아울렛! 여행을 위한 모든 것을 갖춘 단 하나의 제주, 제주신화월드에서 만나보세요.</p>
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <a href = "https://www.kumhoresort.co.kr/resort/?khr=d1000" style="color: black;">
+        <img src="images/jacc3.png" class="card-img-top" alt="금호제주리조트">
+        <div class="card-body">
+          <p class="card-text">금호제주리조트</p>
+          <p class="card-text">금호제주리조트는 별장형 외관으로 설계되어 제주의 자연과 조화를 이루었으며, 부드럽고 우아한 분위기연출로 편안한 휴식을 즐기실수 있도록 꾸며졌습니다.</p>
+        </div>
+      </a>
+      </div>
+    </div>
+    
+    </div>
+    </div>
+
+<pre>
+
+
+
+
+</pre>
+
+
+    <!-- 교통정보 아이콘 -->
+      <a href = "https://map.naver.com/v5/search/%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%AD/place/11576965?c=15,0,0,0,dh&placePath=%3Fentry%253Dbmp"><img src="images/plane.png" class = "plane"></a>
+      <a href = "https://map.naver.com/v5/search/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%EB%B2%84%EC%8A%A4%ED%84%B0%EB%AF%B8%EB%84%90/place/16997192?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=15,0,0,0,dh"><img src="images/bus.png" class = "bus"></a>
+      <!-- <a href = "https://map.naver.com/v5/search/%EC%8B%A0%EA%B2%BD%EC%A3%BC%EC%97%AD/place/13547535?c=15,0,0,0,dh&placePath=%3Fentry%253Dbmp"><img src="images/train.png" class = "train"></a> -->
+
+    <!-- 나의 정보 섹션 시작 -->
+    <section class ="py-5 AboutMe">
+        <div class="container border-2 border-top border-white text-white">
+            <pre class = "AboutMe">
+
+
+                서울여자대학교 Seoul Women's University
+                디지털미디어학과 배준희 Digital Media Bae Jun Hee
+                서울특별시 노원구 화랑로 621
+                e-mail: baejunehee@naver.com
+                Tel: 010-5424-6050
+            </pre>
+
+            <div class = "d-flex mt-1">
+                <a href = "https://www.youtube.com/" class = "btn btn-danger rounded-circle btn-lg px-3"><i class="bi bi-youtube"></i></a>
+                <a href = "https://ko-kr.facebook.com/" class = "btn btn-primary rounded-circle btn-lg px-3"><i class="bi bi-facebook"></i></a>
+                <a href = "https://www.instagram.com/" class = "btn btn-light rounded-circle btn-lg px-3"><i class="bi bi-instagram"></i></a>
+                <a href = "https://twitter.com/?lang=ko" class = "btn btn-info rounded-circle btn-lg px-3"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- top 버튼 -->
+    <a href = "#top"><button type="button" class="btn btn-outline-primary button1 rounded-circle"><i class="bi bi-arrow-up"></i></button></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

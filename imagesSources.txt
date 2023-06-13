@@ -1,0 +1,293 @@
+<이미지 출처>
+
+1. index.html
+
+<캐러셀>
+b-seoul.jpg: https://stock.adobe.com/kr/search?k=%22seoul+city%22&asset_id=258008704
+
+b-gyeongju.jpg: https://www.gyeongju.go.kr/news/page.do?mnu_uid=1342&parm_bod_uid=243961&step=258
+
+b-jeju.jpg: https://www.istockphoto.com/kr/%EC%82%AC%EC%A7%84/%EC%A0%9C%EC%A3%BC%EB%8F%84-%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B2%A0%EB%B4%89%EC%97%90%EC%84%9C-%EC%9D%BC%EC%B6%9C-gm589948940-101322887
+
+b-yeosu.jpg: https://mistyfriday.kr/3259
+
+b-jeonju.jpg: https://m.blog.naver.com/bukyungdang0220/221970891215
+
+b-busan.jpg: https://www.istockphoto.com/kr/%EC%82%AC%EC%A7%84/%EB%B6%80%EC%82%B0-%EB%8F%84%EC%8B%9C-%EA%B1%B4%EB%AC%BC%EC%97%90%EC%84%9C-gm951520344-259744040
+
+b-gangneung.jpg: https://my-goodlife.com/en/products/gangwon-tourist-taxi-9086
+
+
+<지역행사/축제 정보>
+fest1~fest5.jpg: http://m.mediaccbb.com/news/newsview.php?ncode=1065567610218038
+
+
+<공항/버스터미널/기차역 정보>
+train.jpg: https://www.wallpaperflare.com/search?wallpaper=%ED%95%9C%EA%B5%AD
+
+terminal.jpg: https://blog.naver.com/imck81/80182082932
+
+airport.jpg: https://www.ynknews.co.kr/news/view.php?bIdx=11763
+
+
+<맛집/관광명소 정보>
+solsot.jpg: https://map.naver.com/v5/search/%EC%86%94%EC%86%A5/place/1877621159?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=15,0,0,0,dh
+
+hanil.jpg: https://map.naver.com/v5/search/%ED%95%9C%EC%9D%BC%EA%B4%80/place/11680226?placePath=%3Fentry%253Dpll&c=15,0,0,0,dh
+
+gyeongbok.jpg: https://brunch.co.kr/@be-picture/7
+
+thehyundae.jpg: http://m.apparelnews.co.kr/news/news_view/?idx=188788?cat=CAT220
+
+acc1.jpg: https://www.tripadvisor.co.kr/Hotel_Review-g294197-d1500586-Reviews-Rakkojae_Seoul_Bukchon_Hanok_Village-Seoul.html
+
+acc2.jpg: https://www.expedia.co.kr/Seoul-Hotels-Paraspara-Seoul.h69821190.Hotel-Information
+
+acc3.jpg: https://m.koreanguide.net/product/%EC%A2%85%EB%A1%9C%ED%95%9C%EC%98%A5%EA%B6%81%EA%B2%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4/178/
+
+
+2. seoul.html
+<캐러셀>
+gyeo.avif: http://www.royalpalace.go.kr/
+
+namsan.jpg: https://www.agoda.com/ko-kr/travel-guides/south-korea/seoul/n-seoul-tower-panoramic-city-views-from-namsan-mountain?cid=1844104
+
+banpo.png: https://allways.smotor.com/%EA%B0%80%EC%9D%84%EC%97%90-%EB%96%A0%EB%82%98%EA%B8%B0-%EC%A2%8B%EC%9D%80-%ED%8A%B9%EC%83%89-%EC%9E%88%EB%8A%94-%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90-best4/5-1-3/
+
+
+<서울 맛집>
+sariwon.jpg: http://www.sariwonkorea.com/menu.php
+
+pig.jpeg: https://blog.naver.com/goldpig1982
+
+
+<행사/측제>
+you.jpeg: https://hangang.seoul.go.kr/www/eventMng/detail.do?&evntSn=76&mid=538
+
+market.jpeg: https://hangang.seoul.go.kr/www/eventMng/detail.do?&evntSn=76&mid=538
+
+light.jpeg: https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109097&searchCategory1=600&searchCategory2=&searchField=all&searchDate=202305&weekSel=&searchText=
+
+
+<관광명소>
+banpo.jpeg: https://hangang.seoul.go.kr/www/contents/663.do?mid=463
+
+gyeo.jpg: http://www.royalpalace.go.kr/
+
+buk.png: https://www.pinterest.co.kr/pin/263671753171989981/
+
+
+3. busan.html
+<캐러셀>
+gwang.jpeg: https://www.suyeong.go.kr/tour/index.suyeong?menuCd=DOM_000001102001001000&link=success&cpath=%252Ftour
+
+gam.jpeg: http://www.gamcheon.or.kr/
+
+aqua.png: https://www.visitsealife.com/busan/
+
+white.jpeg: http://www.ydculture.com/
+
+
+<부산 맛집>
+bfood.png: http://www.instagram.com/onefineday_sz
+
+fish1.jpeg: https://blog.naver.com/yjh7717a
+
+3found.jpeg: http://3found.modoo.at/
+
+sura.jpeg: https://www.instagram.com/3found.official
+
+
+<행사/축제>
+magic.jpeg: https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=2987531
+
+dron.jpeg: http://gwangallimdrone.co.kr/
+
+asean.jpeg: https://www.ach.or.kr/ach/main.do
+
+
+<숙소>
+paradise.jpeg: https://www.busanparadisehotel.co.kr/front
+
+ananti.jpeg: https://ananti.kr/ko/busan
+
+grand.jpeg: https://gjb.josunhotel.com/
+
+
+4. gangneung.html
+<캐러셀>
+gang.png: http://www.sunbike.kr/
+
+gyeong.jpeg: http://gyeongpolake.co.kr/
+
+haslla.png: http://museumhaslla.com/
+
+gang2.png: https://knsgj.net/
+
+
+<강릉 맛집>
+daegae.jpeg: https://kkpk.modoo.at/
+
+soon.png: https://www.instagram.com/donghwagarden
+
+mat.jpeg: https://matdrin.modoo.at/
+
+hae.png: https://map.naver.com/v5/search/%EA%B0%95%EB%A6%89%20%EB%A7%9B%EC%A7%91/place/1747803512?c=10,0,0,0,dh&placePath=%3Fentry%253Dpll
+
+
+<행사/축제>
+gfest.jpeg: http://www.danojefestival.or.kr/
+
+gfest2.jpeg: http://www.gncn.or.kr/
+
+gfest3.jpeg: http://wcg2023.kr/
+
+
+<숙소>
+sky.jpeg: https://hotels.naver.com/item/photo?hotelFileName=hotel%3ASkybay_Hotel_Gyeongpo&adultCnt=2&checkIn=2023-06-20&checkOut=2023-06-21&includeTax=false
+
+sun.jpeg: https://hotels.naver.com/item?hotelFileName=hotel%3ASun_Cruise_Resort_and_Yacht&adultCnt=2&includeTax=false&checkIn=2023-06-20&checkOut=2023-06-21
+
+seint.jpeg: https://hotels.naver.com/item?hotelFileName=hotel%3ASt_Johns_Hotel&adultCnt=2&checkIn=2023-06-20&checkOut=2023-06-21&includeTax=false
+
+
+5. jeonju.html
+<캐러셀>
+zoo.jpeg: https://zoo.jeonju.go.kr/
+
+jeon.jpeg: http://www.jeonju-railbike.kr/
+
+cheongyeonlu.png: https://map.naver.com/v5/search/%EC%A0%84%EC%A3%BC%20%EA%B4%80%EA%B4%91%EB%AA%85%EC%86%8C/place/1908787983?placePath=%3Fentry%253Dbmp&c=15,0,0,0,dh
+
+
+<전주 맛집>
+maedang.jpeg: https://map.naver.com/v5/search/%EC%A0%84%EC%A3%BC%20%EB%A7%9B%EC%A7%91/place/13111709?c=10,0,0,0,dh&placePath=%3Fentry%253Dpll%2526n_ad_group_type%253D10%2526n_query%253D%25EC%25A0%2584%25EC%25A3%25BC%25EB%25A7%259B%25EC%25A7%2591
+
+chao.jpeg: http://chaophraya.modoo.at/
+
+yangbanga.jpeg: https://map.naver.com/v5/search/%EC%A0%84%EC%A3%BC%20%EB%A7%9B%EC%A7%91/place/11782597?c=10.19,0,0,0,dh&placePath=%3Fentry%253Dpll
+
+galbi.jpeg: https://blog.naver.com/gndka7412
+
+
+<행사/축제>
+jeve.jpeg: https://cceajj.jeonju.go.kr/
+
+jeve2.jpeg: https://search.naver.com/p/crd/rd?m=1&px=127&py=406&sx=127&sy=406&p=i4NgalprvmsssLnUFiZssssssQ0-025089&q=%EC%A0%84%EB%B6%81%EA%B0%80%EC%A1%B1%EC%98%81%ED%99%94%EC%A0%9C&ie=utf8&rev=1&ssc=tab.nx.all&f=nexearch&w=nexearch&s=aBVEv1gw0ydDRRosgmg30g%3D%3D&time=1686573897232&abt=%5B%7B%22eid%22%3A%22QR-WEB%22%2C%22vid%22%3A%225%22%7D%2C%7B%22eid%22%3A%222%22%2C%22vid%22%3A%224%22%7D%2C%7B%22eid%22%3A%22FBL-ADPOS%22%2C%22vid%22%3A%2257%22%7D%5D&a=nco_x4m*F.sumlink&r=1&i=88144928_000001B38AC1&u=http%3A%2F%2Fwww.jfff.kr%2F&cr=1
+
+jeve3.jpeg: http://www.sorifestival.com/
+
+
+<숙소>
+jhotel.jpeg: https://hotels.naver.com/item?hotelFileName=hotel%3ALahan_Hotel_Jeonju&adultCnt=2&checkIn=2023-06-19&checkOut=2023-06-20
+
+jhotel2.jpeg: https://hotels.naver.com/item?hotelFileName=hotel%3AJeonju_Wangyijimil_Hanok_Hotel&adultCnt=2&includeTax=false&checkIn=2023-06-19&checkOut=2023-06-20
+
+jhotel3.jpeg: https://hotels.naver.com/item?hotelFileName=hotel%3ADaon_Hotel&adultCnt=2&includeTax=false&checkIn=2023-06-19&checkOut=2023-06-20
+
+
+6. gyeongju.html
+<캐러셀>
+gyeongjuworld.jpg: https://www.gjw.co.kr/
+
+hwang.jpg: https://map.naver.com/v5/entry/place/677355362?lng=129.2096064309007&lat=35.83633434985393&placePath=%2Fhome&entry=plt&c=15,0,0,0,dh
+
+Cheomseongdae.jpg: https://map.naver.com/v5/search/%EA%B2%BD%EC%A3%BC%20%EA%B4%80%EA%B4%91%EB%AA%85%EC%86%8C/place/13491802?placePath=%3Ffrom=nx%26fromNxList=true&c=15,0,0,0,dh
+
+
+<경주 맛집>
+shinla.png: https://map.naver.com/v5/entry/place/1190576799?lng=129.21227670000442&lat=35.83516340089319&placePath=%2Fhome&c=15,0,0,0,dh
+
+cheong.png: https://www.instagram.com/cheongonchae/
+
+hyugi.jpeg: https://www.instagram.com/hyugi92/
+
+r.png: https://www.instagram.com/ryomi.official/
+
+
+<행사/축제>
+ge1.jpg: http://gyeongju-media-art.or.kr/
+
+ge2.png: https://www.garts.kr/index.do?menuId=00000121&ym=202306&searchTxt=&pageIndex=1&menuLink=/user/sched/detl.do&schedId=SCHED_0000015220
+
+ge3.png: https://gjgukak.modoo.at/
+
+
+<숙소>
+gacc.jpeg: https://www.instagram.com/soihanok__official
+
+gacc2.jpeg: https://www.instagram.com/manwoljae_official/
+
+gacc3.jpeg: https://www.instagram.com/stay_yeowoozam_2
+
+
+6. jeju.html
+<캐러셀>
+ecoland.jpg: https://map.naver.com/v5/search/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%EA%B4%80%EA%B4%91%EB%AA%85%EC%86%8C/place/11707633?placePath=%3Ffrom=nx%26fromNxList=true&c=15,0,0,0,dh
+
+forest.jpg: https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030053
+
+ju.jpg: http://www.visitjeju.net/ko/tourView.jto?menuCd=DOM_000001717010000000&areaId=CNTS_000000000020476
+
+bunker.jpg: https://www.deslumieres.co.kr/bunker
+
+
+<제주 맛집>
+galchi.png: https://map.naver.com/v5/entry/place/1876373893?lng=126.6695095&lat=33.5424872&placePath=%2Fhome&c=15,0,0,0,dh
+
+bpig.jpg: https://map.naver.com/v5/search/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%EB%A7%9B%EC%A7%91/place/35848888?placePath=%3Fentry=pll%26from=nx%26fromNxList=true%26n_ad_group_type=10%26n_query=%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%A7%9B%EC%A7%91&n_ad_group_type=10&n_query=%EC%A0%9C%EC%A3%BC%EB%8F%84%EB%A7%9B%EC%A7%91&c=9,0,0,0,dh
+
+noodle.png: https://www.instagram.com/seogwipo_sammoo/
+
+fish.png: http://7134789.modoo.at/
+
+
+<행사/축제>
+common.png: http://theveniceland.com/m/index.php
+
+common2.png: http://www.tamnafestival.kr/
+
+common3.png: http://www.jhaf.or.kr/
+
+
+<숙소>
+jacc.png: https://hotels.naver.com/item?hotelFileName=hotel%3ALotte_Hotel_Jeju&adultCnt=2&includeTax=false&checkIn=2023-06-18&checkOut=2023-06-19
+
+jacc2.jpeg: https://www.shinhwaworld.com/
+
+jacc3.png: https://www.kumhoresort.co.kr/resort/?khr=d1000
+
+
+6. yeosu.html
+<캐러셀>
+yk.jpeg: http://www.yeosucablecar.com/
+
+zip.jpeg: https://home-ticket.co.kr/yeosuziptrek
+
+aquaplanet.jpeg: https://www.aquaplanet.co.kr/yeosu/index.do
+
+
+<여수 맛집>
+m.jpeg: http://www.명동게장.kr/
+
+jhwa.png: http://instagram.com/jsy_burger
+
+sam.jpeg: https://map.naver.com/v5/search/%EC%97%AC%EC%88%98%20%EB%A7%9B%EC%A7%91/place/1413002295?c=10.19,0,0,0,dh&placePath=%3Fentry%253Dpll
+
+moipin.jpeg: http://www.모이핀.com/
+
+
+<행사/축제>
+turtle.png: http://jinnamje.com/page_mrJM15
+
+rose2.png: http://news.yeosu.go.kr/news/articleView.html?idxno=23678
+
+pox.jpg: https://www.metroseoul.co.kr/article/20230607500458
+
+
+<숙소>
+hotel.jpeg: https://hotels.naver.com/item?hotelFileName=hotel%3AYeosu_Venezia_Hotel_Resort&adultCnt=2&includeTax=false&checkIn=2023-06-19&checkOut=2023-06-20
+
+hidden.jpeg: https://hotels.naver.com/item?hotelFileName=hotel%3AHidden_Bay_Hotel_Yeosu&adultCnt=2&checkIn=2023-06-19&checkOut=2023-06-20
+
+yshinla.jpeg: https://hotels.naver.com/item?hotelFileName=hotel%3AShilla_Stay_Yeosu&adultCnt=2&includeTax=false&checkIn=2023-06-19&checkOut=2023-06-20
